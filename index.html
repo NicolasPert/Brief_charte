@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- Les bases d'une page HTML
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8" />
+    <title>Promo Simplon- La DerDesDevs</title>
+    <meta name="description" content="Notre Charte de Promo" />
+    <meta name="author" content="Promo Simplon La DerDesDevs" />
+
+    <!-- Métadonnées spécifique Mobiles
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Liaisons des Polices
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Liaisons des fichiers CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/skeleton.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Liaisons du fichier JS si vous faites le bonus
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- TODO -->
+    <script src="script.js" defer></script>
+
+    <!-- Liaison du Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- TODO -->
+    <link rel="icon" type="image/png" href="../images/favicon.png"/>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container"><h1>Promo DDD - La DerDesDevs 2023</h1></div>
+    </header>
+
+    <!-- Structure principale de la page
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <main class="container">
+      <section>
+        <div class="row">
+          <div class="column">
+            <h2>Notre Charte de promo</h2>
+            <p>
+              Ces règles nous unissent et ont été <strong>inventées</strong> et
+              sont <strong>officieuses</strong> ! Les voici, prenez plaisir à
+              les découvrir !🔥
+            </p>
+          </div>
+            <button class="red">
+              <a href="https://www.github.com" target="blank">Accès Github</a>
+            </button>
+        </div>
+      </section>
+      <div class="box accordion">
+        <input type="checkbox" id="tab1" />
+        <label class="accordion-label" for="tab1">Réussite collective</label>
+        <div class="accordion-content"><br>
+          <ul>
+            <li>Si j’ai fini un exercice, j’aide les autres</li>
+            <li>
+              En cas de difficultés, je n'hésite pas à solliciter le groupe, à
+              condition d'avoir suffisamment recherché en autonomie, si je
+              demande de l'aide je m'engage à approffondir le sujet par moi
+              même.
+            </li>
+            <li>Je partage mes sources, trucs et astuces</li>
+          </ul>
+        </div>
+      </div>
+      <div class="box accordion">
+        <input type="checkbox" id="tab2" />
+        <label class="accordion-label" for="tab2">Vie Collective</label>
+        <div class="accordion-content"><br>
+          <ul>
+            <li>Je suis ponctuel afin de ne pas retarder le début des cours</li>
+            <li>Je respecte les décisions prise par la majorité</li>
+            <li>Je m'exprime avec calme et respect, même si j'ai des désaccords</li>
+          </ul>
+        </div>
+      </div>
+      <div class="box accordion">
+        <input type="checkbox" id="tab3" />
+        <label class="accordion-label" for="tab3">Pour le fun</label>
+        <div class="accordion-content"><br>
+          <ul>
+            <li>Je participe aux activités du groupe</li>
+            <li>Je suis force de proposition pour organiser des sorties/déjeuners</li>
+            <li>Je choisis un délégué de classe dont le prénom commence par la lettre N et qui ne veut pas être nommé</li>
+          </ul>
+        </div>
+      </div>
+
+      <section >
+        Grâce à ce règlement on obtient le code suivant :
+        <pre class="box2"><code style="overflow: auto;">
+      var compétencesDePromo = [];
+      var humeurPromo = 'Au top';
+      if('règles comprises' == true && 'règles appliquées' == true) {
+      compétencesDePromo.push(new Compétence());
+      } else {
+      humeurPromo = 'Pas top';
+      }
+      </code></pre>
+    </section>
+        <div class="texte">
+          <button id="button-random" class="red">Random Apprenant</button>
+        </div>
+        
+
+    </main>
+
+    
+
+    <!-- Fin du document (fermeture des balises)
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  </body>
+</html>
