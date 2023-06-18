@@ -19,9 +19,12 @@
       rel="stylesheet"
       type="text/css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Liaisons des fichiers CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -37,20 +40,22 @@
     <!-- Liaison du Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <!-- TODO -->
-    <link rel="icon" type="image/png" href="../images/favicon.png"/>
+    <link rel="icon" type="image/png" href="../images/favicon.png" />
   </head>
 
   <body>
-    <header class="header">
-      <div class="container"><h1>Promo DDD - La DerDesDevs 2023</h1></div>
+    <header class="container">
+      <div class="header">
+        <h1>Promo DDD - La DerDesDevs 2023</h1>
+      </div>
     </header>
 
     <!-- Structure principale de la page
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <main class="container">
       <section>
-        <div class="row">
-          <div class="column">
+        <div class="columns">
+          <div>
             <h2>Notre Charte de promo</h2>
             <p>
               Ces règles nous unissent et ont été <strong>inventées</strong> et
@@ -58,15 +63,16 @@
               les découvrir !🔥
             </p>
           </div>
-            <button class="red">
-              <a href="https://www.github.com" target="blank">Accès Github</a>
-            </button>
+          <button class="red">
+            <a href="https://www.github.com" target="blank">Accès Github</a>
+          </button>
         </div>
       </section>
       <div class="box accordion">
         <input type="checkbox" id="tab1" />
         <label class="accordion-label" for="tab1">Réussite collective</label>
-        <div class="accordion-content"><br>
+        <div class="accordion-content">
+          <br />
           <ul>
             <li>Si j’ai fini un exercice, j’aide les autres</li>
             <li>
@@ -82,27 +88,36 @@
       <div class="box accordion">
         <input type="checkbox" id="tab2" />
         <label class="accordion-label" for="tab2">Vie Collective</label>
-        <div class="accordion-content"><br>
+        <div class="accordion-content">
+          <br />
           <ul>
             <li>Je suis ponctuel afin de ne pas retarder le début des cours</li>
             <li>Je respecte les décisions prise par la majorité</li>
-            <li>Je m'exprime avec calme et respect, même si j'ai des désaccords</li>
+            <li>
+              Je m'exprime avec calme et respect, même si j'ai des désaccords
+            </li>
           </ul>
         </div>
       </div>
       <div class="box accordion">
         <input type="checkbox" id="tab3" />
         <label class="accordion-label" for="tab3">Pour le fun</label>
-        <div class="accordion-content"><br>
+        <div class="accordion-content">
+          <br />
           <ul>
             <li>Je participe aux activités du groupe</li>
-            <li>Je suis force de proposition pour organiser des sorties/déjeuners</li>
-            <li>Je choisis un délégué de classe dont le prénom commence par la lettre N et qui ne veut pas être nommé</li>
+            <li>
+              Je suis force de proposition pour organiser des sorties/déjeuners
+            </li>
+            <li>
+              Je choisis un délégué de classe dont le prénom commence par la
+              lettre N et qui ne veut pas être nommé
+            </li>
           </ul>
         </div>
       </div>
 
-      <section >
+      <section>
         Grâce à ce règlement on obtient le code suivant :
         <pre class="box2"><code style="overflow: auto;">
       var compétencesDePromo = [];
@@ -113,15 +128,11 @@
       humeurPromo = 'Pas top';
       }
       </code></pre>
-    </section>
-        <div class="texte">
-          <button id="button-random" class="red">Random Apprenant</button>
-        </div>
-        
-
+      </section>
+      <div class="text">
+        <button id="button-random"  class="red">Random Apprenant</button>
+      </div>
     </main>
-
-    
 
     <!-- Fin du document (fermeture des balises)
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->

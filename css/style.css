@@ -1,12 +1,12 @@
 body {
-    width: auto;
+    margin: 0;
     font-family:'Roboto', sans-serif;
   }
 
 header {
-    margin: auto;
+    margin: 0;
     height: 60px;
-    box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 12px 0px rgba(86, 86, 86, 0.75);
     position:fixed;
     z-index: 999;
     background-color : white;
@@ -17,9 +17,13 @@ h1 {
     font-size: 2.5em;
 }
 
+h2 {
+    padding-top: 15px;
+}
+
 .box {
-    box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.75);
-    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 5px 12px 0px rgba(86, 86, 86, 0.75);
+    border-radius: 10px;
     padding: 10px;
     margin-bottom: 20px;
     padding-top: 10px;
@@ -29,13 +33,6 @@ h1 {
     border: 1px solid blue;
 }
 
-
-.row {
-    padding-top: 70px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 ul {
     list-style-image: url(../images/bullet.png);
@@ -56,10 +53,11 @@ ul {
 .red {
     background-color: #CE0033;
     color: white;
+    text-align: center;
 
 }
 
-.texte {
+.texte {   
     text-align: center;
 }
 
@@ -76,13 +74,14 @@ button {
     font-size: 14px ;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     .header {
         font-size: 24px;
     }
     h1 {
         margin-top: 0;
         font-size: 1em;
+        text-align: center;
     }
 
     h2 {
@@ -90,13 +89,15 @@ button {
     }
   }
 
-  @media only screen and (max-width: 800px) and (min-width: 400px) {
+  .red {
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 800px) and (min-width: 480px) {
     header {
         height: 100px;
     }
-    .row {
-        padding-top: 130px;
-    }
+
   }
 
   input {
