@@ -5,16 +5,16 @@ body {
 
 header {
     margin: 0;
-    height: 60px;
-    box-shadow: 0px 5px 12px 0px rgba(86, 86, 86, 0.75);
-    position:fixed;
-    z-index: 999;
+    height:auto;
+    box-shadow: 0px 5px 12px 0px rgba(144, 141, 141, 0.75);
+    position:sticky;
+    z-index: 1;
     background-color : white;
 }
 
 h1 {
-    margin-top: 10px;
     font-size: 2.5em;
+    text-align: center;
 }
 
 h2 {
@@ -22,7 +22,7 @@ h2 {
 }
 
 .box {
-    box-shadow: 0px 5px 12px 0px rgba(86, 86, 86, 0.75);
+    box-shadow: 0px 5px 12px 0px rgba(144, 141, 141, 0.75);
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 20px;
@@ -53,8 +53,6 @@ ul {
 .red {
     background-color: #CE0033;
     color: white;
-    text-align: center;
-
 }
 
 .texte {   
@@ -63,7 +61,8 @@ ul {
 
 a {
     color: white;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 a:hover {
     color: white;
@@ -95,7 +94,7 @@ button {
 
   @media only screen and (max-width: 800px) and (min-width: 480px) {
     header {
-        height: 100px;
+        height: 60px;
     }
 
   }
