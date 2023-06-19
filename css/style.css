@@ -1,6 +1,11 @@
-body {
+html {
+    font-size: 12px;
+}
+    
+    
+    body {
     font-family:'Roboto', sans-serif;
-    font-size: 10px;
+
   }
 
 header {
@@ -78,12 +83,10 @@ button {
 }
 
 @media (max-width: 480px) {
-    .header {
-        font-size: 1.9em;
-    }
+
     h1 {
         margin-top: 0;
-        font-size: 1.2em;
+        font-size: 1.5em;
         text-align: center;
     }
 
