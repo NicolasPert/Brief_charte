@@ -59,6 +59,11 @@ ul {
     margin-top: 20px;
 }
 
+.form {
+    border-radius: 10px;
+    padding: 10px;
+}
+
 
 .align-right {
     text-align: right;
